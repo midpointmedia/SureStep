@@ -1,0 +1,242 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"par",
+				"participantCount"
+			],
+			[
+				"fea",
+				"featureCost"
+			],
+			[
+				"ba",
+				"basePricePPD"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"pro",
+				"programId"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "import sublime\nimport sublime_plugin\n\n\nclass ExampleCommand(sublime_plugin.TextCommand):\n\tdef run(self, edit):\n\t\tself.view.insert(edit, 0, \"Hello, World!\")\n",
+			"settings":
+			{
+				"buffer_size": 156,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/AMPPS/www/SureStep"
+	],
+	"file_history":
+	[
+		"/Applications/AMPPS/www/WeeAct/src/Template/Program/detail_program.ctp",
+		"/Applications/AMPPS/www/WeeAct/src/Controller/ParticipantController.php",
+		"/Applications/AMPPS/www/WeeConsole/src/Template/Settings/app_config.ctp",
+		"/Applications/AMPPS/www/WeeAct/src/Template/Program/agency_usage.ctp",
+		"/Applications/AMPPS/www/WeeAct/src/Template/Program/program_usage.ctp",
+		"/Applications/AMPPS/www/WeeAct/src/Template/Layout/WeeAct.ctp",
+		"/Applications/AMPPS/www/WeeAct/src/Template/Program/usage.ctp",
+		"/Applications/AMPPS/www/WeeAct/src/Template/Program/add_program.ctp",
+		"/Applications/AMPPS/www/WeeAct/src/Template/Program/add_gov.ctp",
+		"/Applications/AMPPS/www/WeeAutomate/webroot/phone/answer.xml",
+		"/Applications/AMPPS/www/WeeAutomate/webroot/phone/sms_response.xml",
+		"/Applications/AMPPS/www/WeeAct/config/app.php",
+		"/Users/dan/Documents/WeePee/WeeAutomate/src/Shell/WeeShell.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/dan/Library/Application Support/Sublime Text 3/Packages/User",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SureStep.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

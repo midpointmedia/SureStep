@@ -1,0 +1,1037 @@
+2017-09-06 05:27:29 Error: [Cake\Console\Exception\MissingTaskException] Task class GetColors could not be found. in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/TaskRegistry.php on line 71
+Exception Attributes: array (
+  'class' => 'GetColors',
+  'plugin' => NULL,
+)
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(94): Cake\Console\TaskRegistry->_throwMissingClassError('GetColors', NULL)
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(586): Cake\Core\ObjectRegistry->load('GetColors', Array)
+#2 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(15): Cake\Console\Shell->__get('GetColors')
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(508): App\Shell\PhoneShell->main()
+#4 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#5 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#6 {main}
+
+
+2017-09-07 04:50:34 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'dlopez'@'localhost' (using password: YES) in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php on line 48
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'dlopez', 'Midpoint99$', Array)
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(134): Cake\Database\Driver\Mysql->connect()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(259): Cake\Database\Driver\Mysql->prepare('CALL getProgram...')
+#4 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(327): Cake\Database\Connection->prepare('CALL getProgram...')
+#5 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(284): Cake\Database\Connection->query('CALL getProgram...')
+#6 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(70): Cake\Database\Connection->execute('CALL getProgram...')
+#7 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(14): App\Shell\Task\GetColorsTask->getProgramsToCall()
+#8 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(15): App\Shell\Task\GetColorsTask->main()
+#9 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(508): App\Shell\PhoneShell->main()
+#10 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2017-09-07 20:11:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1318 Incorrect number of arguments for PROCEDURE weepee.SaveCall; expected 11, got 10 in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(328): Cake\Database\Statement\MysqlStatement->execute()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(284): Cake\Database\Connection->query('CALL SaveCall(n...')
+#3 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(56): Cake\Database\Connection->execute('CALL SaveCall(n...')
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(13): App\Shell\Task\GetColorsTask->CallPrograms()
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(15): App\Shell\Task\GetColorsTask->main()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(508): App\Shell\PhoneShell->main()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-07 20:13:16 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weepee.call_log' doesn't exist in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(328): Cake\Database\Statement\MysqlStatement->execute()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(284): Cake\Database\Connection->query('CALL SaveCall(n...')
+#3 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(56): Cake\Database\Connection->execute('CALL SaveCall(n...')
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(13): App\Shell\Task\GetColorsTask->CallPrograms()
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(15): App\Shell\Task\GetColorsTask->main()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(508): App\Shell\PhoneShell->main()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-07 20:14:12 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weepee.call_log' doesn't exist in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(328): Cake\Database\Statement\MysqlStatement->execute()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(284): Cake\Database\Connection->query('CALL SaveCall(n...')
+#3 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(56): Cake\Database\Connection->execute('CALL SaveCall(n...')
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(13): App\Shell\Task\GetColorsTask->CallPrograms()
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(15): App\Shell\Task\GetColorsTask->main()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(508): App\Shell\PhoneShell->main()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-07 20:14:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'called_date' in 'where clause' in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(328): Cake\Database\Statement\MysqlStatement->execute()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(284): Cake\Database\Connection->query('CALL SaveCall(n...')
+#3 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(56): Cake\Database\Connection->execute('CALL SaveCall(n...')
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(13): App\Shell\Task\GetColorsTask->CallPrograms()
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(15): App\Shell\Task\GetColorsTask->main()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(508): App\Shell\PhoneShell->main()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-07 20:15:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'called_date' in 'where clause' in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(328): Cake\Database\Statement\MysqlStatement->execute()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(284): Cake\Database\Connection->query('CALL SaveCall(n...')
+#3 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(56): Cake\Database\Connection->execute('CALL SaveCall(n...')
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(13): App\Shell\Task\GetColorsTask->CallPrograms()
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(15): App\Shell\Task\GetColorsTask->main()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(508): App\Shell\PhoneShell->main()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-07 20:15:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1110 Column 'recording_sid' specified twice in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(328): Cake\Database\Statement\MysqlStatement->execute()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(284): Cake\Database\Connection->query('CALL SaveCall(n...')
+#3 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(56): Cake\Database\Connection->execute('CALL SaveCall(n...')
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(13): App\Shell\Task\GetColorsTask->CallPrograms()
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(15): App\Shell\Task\GetColorsTask->main()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(508): App\Shell\PhoneShell->main()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-11 18:45:23 Error: [Twilio\Exceptions\RestException] [HTTP 400] Unable to create record: The phone number you are attempting to call, , is not valid. in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Version.php on line 85
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallList.php(86): Twilio\Version->create('POST', '/Accounts/AC757...', Array, Array)
+#2 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(71): Twilio\Rest\Api\V2010\Account\CallList->create(NULL, '7025000027', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(15): App\Shell\Task\GetColorsTask->CallPrograms()
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(15): App\Shell\Task\GetColorsTask->main()
+#5 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(508): App\Shell\PhoneShell->main()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#7 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#8 {main}
+
+
+2017-09-12 01:21:20 Error: [Twilio\Exceptions\TwilioException] Unknown property: subresource_uris in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallInstance.php on line 192
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(32): Twilio\Rest\Api\V2010\Account\CallInstance->__get('subresource_uri...')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 03:56:15 Error: [Twilio\Exceptions\TwilioException] Unknown subresource Recordings in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallContext.php on line 183
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(42): Twilio\Rest\Api\V2010\Account\CallContext->__get('Recordings')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 04:14:32 Error: [Twilio\Exceptions\TwilioException] Unknown subresource Recordings in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallContext.php on line 183
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(42): Twilio\Rest\Api\V2010\Account\CallContext->__get('Recordings')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 04:15:11 Error: [Twilio\Exceptions\TwilioException] Unknown subresource Recordings in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallContext.php on line 183
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(42): Twilio\Rest\Api\V2010\Account\CallContext->__get('Recordings')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:00:22 Error: [Twilio\Exceptions\TwilioException] Unknown property: Sid in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(53): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Sid')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:02:31 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(53): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:03:21 Error: [Twilio\Exceptions\TwilioException] Unknown property: Duration in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(53): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Duration')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:14:11 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(54): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:16:23 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(54): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:26:46 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(52): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:27:33 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(50): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:28:31 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(50): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:29:49 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(50): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:30:29 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(51): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:31:46 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(26): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:41:00 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(58): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:41:11 Error: [Twilio\Exceptions\TwilioException] Unknown property: Duration in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(58): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Duration')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:42:09 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(60): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:48:01 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(60): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 05:49:24 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(60): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 06:05:26 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(65): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 06:05:57 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(69): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 06:10:13 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(70): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 06:11:10 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(70): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 06:14:12 Error: [Twilio\Exceptions\TwilioException] Unknown property: Price in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php on line 148
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(74): Twilio\Rest\Api\V2010\Account\RecordingInstance->__get('Price')
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#4 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#5 {main}
+
+
+2017-09-12 15:15:17 Warning: Warning (2): Missing argument 1 for App\Shell\Task\GetColorsTask::CallAgency(), called in /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php on line 19 and defined in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 80]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::CallAgency() - APP/Shell/Task/GetColorsTask.php, line 80
+App\Shell\PhoneShell::GetTodaysColors() - APP/Shell/PhoneShell.php, line 19
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 15:15:17 Warning: Warning (2): Missing argument 2 for App\Shell\Task\GetColorsTask::CallAgency(), called in /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php on line 19 and defined in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 80]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::CallAgency() - APP/Shell/Task/GetColorsTask.php, line 80
+App\Shell\PhoneShell::GetTodaysColors() - APP/Shell/PhoneShell.php, line 19
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 15:15:18 Error: [Twilio\Exceptions\RestException] [HTTP 400] Unable to create record: The phone number you are attempting to call, , is not valid. in /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Version.php on line 85
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallList.php(86): Twilio\Version->create('POST', '/Accounts/AC757...', Array, Array)
+#2 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(95): Twilio\Rest\Api\V2010\Account\CallList->create(NULL, '7025000027', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(19): App\Shell\Task\GetColorsTask->CallAgency()
+#4 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->GetTodaysColors()
+#5 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#6 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#7 {main}
+
+
+2017-09-12 16:47:31 Warning: Warning (2): fopen(http://api.twilio.com/2010-04-01/Accounts/AC757ffde36ee417785554bb3f850d74d1/Recordings/RE37eee73f21d2a213587401bb160d7430.mp3): failed to open stream: HTTP request failed! HTTP/1.1 404 NOT FOUND
+ in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 64]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 64
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 20:02:36 Warning: Warning (2): fopen(/webroot/phone/calls/RE37eee73f21d2a213587401bb160d7430.mp3): failed to open stream: No such file or directory in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 42
+App\Shell\PhoneShell::Transcribe() - APP/Shell/PhoneShell.php, line 29
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 20:02:36 Error: [Google\Cloud\Core\Exception\ServiceException] Could not load the default credentials. Browse to https://developers.google.com/accounts/docs/application-default-credentials for more information in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(Google\Cloud\Core\Exception\ServiceException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(42): Google\Cloud\Speech\SpeechClient->recognize(false, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 20:04:19 Error: [Google\Cloud\Core\Exception\ServiceException] Could not load the default credentials. Browse to https://developers.google.com/accounts/docs/application-default-credentials for more information in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(Google\Cloud\Core\Exception\ServiceException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(42): Google\Cloud\Speech\SpeechClient->recognize(Resource id #174, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 20:06:20 Error: [Google\Cloud\Core\Exception\ServiceException] Could not load the default credentials. Browse to https://developers.google.com/accounts/docs/application-default-credentials for more information in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(Google\Cloud\Core\Exception\ServiceException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(42): Google\Cloud\Speech\SpeechClient->recognize(Resource id #174, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 20:50:19 Error: [Google\Cloud\Core\Exception\ServiceException] Could not load the default credentials. Browse to https://developers.google.com/accounts/docs/application-default-credentials for more information in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(Google\Cloud\Core\Exception\ServiceException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(63): Google\Cloud\Speech\SpeechClient->recognize(Resource id #174, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 20:53:46 Error: [Google\Cloud\Core\Exception\ServiceException] Could not load the default credentials. Browse to https://developers.google.com/accounts/docs/application-default-credentials for more information in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(Google\Cloud\Core\Exception\ServiceException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-storage/Connection/Rest.php(124): Google\Cloud\Storage\Connection\Rest->send('buckets', 'list', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/Iterator/PageIteratorTrait.php(233): Google\Cloud\Storage\Connection\Rest->listBuckets(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/Iterator/PageIteratorTrait.php(175): Google\Cloud\Core\Iterator\PageIterator->executeCall()
+#5 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/Iterator/ItemIteratorTrait.php(129): Google\Cloud\Core\Iterator\PageIterator->current()
+#6 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(35): Google\Cloud\Core\Iterator\ItemIterator->valid()
+#7 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(45): App\Shell\Task\GetColorsTask->auth_cloud_implicit('red-shape-88923')
+#8 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#9 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#10 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2017-09-12 21:02:46 Error: [Google\Cloud\Core\Exception\ServiceException] Could not load the default credentials. Browse to https://developers.google.com/accounts/docs/application-default-credentials for more information in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(Google\Cloud\Core\Exception\ServiceException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-storage/Connection/Rest.php(124): Google\Cloud\Storage\Connection\Rest->send('buckets', 'list', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/Iterator/PageIteratorTrait.php(233): Google\Cloud\Storage\Connection\Rest->listBuckets(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/Iterator/PageIteratorTrait.php(175): Google\Cloud\Core\Iterator\PageIterator->executeCall()
+#5 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/Iterator/ItemIteratorTrait.php(129): Google\Cloud\Core\Iterator\PageIterator->current()
+#6 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(37): Google\Cloud\Core\Iterator\ItemIterator->valid()
+#7 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(51): App\Shell\Task\GetColorsTask->auth_cloud_implicit('red-shape-88923')
+#8 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#9 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#10 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2017-09-12 21:04:26 Error: [Google\Cloud\Core\Exception\ServiceException] {
+  "error": {
+    "code": 403,
+    "message": "Google Cloud Speech API has not been used in project red-shape-88923 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/speech.googleapis.com/overview?project=red-shape-88923 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Google developers console API activation",
+            "url": "https://console.developers.google.com/apis/api/speech.googleapis.com/overview?project=red-shape-88923"
+          }
+        ]
+      }
+    ]
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(70): Google\Cloud\Speech\SpeechClient->recognize(Resource id #219, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 21:09:56 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(70): Google\Cloud\Speech\SpeechClient->recognize(Resource id #219, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 21:11:24 Warning: Warning (2): fopen(/webroot/phone/calls/RE37eee73f21d2a213587401bb160d7430.mp3): failed to open stream: No such file or directory in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 65
+App\Shell\PhoneShell::Transcribe() - APP/Shell/PhoneShell.php, line 29
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 21:11:24 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(65): Google\Cloud\Speech\SpeechClient->recognize(false, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 21:11:56 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(65): Google\Cloud\Speech\SpeechClient->recognize(Resource id #219, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 21:30:14 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(67): Google\Cloud\Speech\SpeechClient->recognize(Resource id #219, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 21:35:50 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(67): Google\Cloud\Speech\SpeechClient->recognize(Resource id #219, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 21:41:48 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "sample_rate_hertz (16000) in RecognitionConfig must either be omitted or match the value in the WAV header ( 8000).",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(67): Google\Cloud\Speech\SpeechClient->recognize(Resource id #219, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 21:50:08 Warning: Warning (2): fopen(/webroot/phone/calls/REeca599fd6fe851be4a499fd980a75c19.wav): failed to open stream: No such file or directory in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 65
+App\Shell\PhoneShell::Transcribe() - APP/Shell/PhoneShell.php, line 29
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 21:50:09 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(65): Google\Cloud\Speech\SpeechClient->recognize(false, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 21:50:42 Warning: Warning (2): fopen(http://localhost/phone/calls/REeca599fd6fe851be4a499fd980a75c19.wav): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 65
+App\Shell\PhoneShell::Transcribe() - APP/Shell/PhoneShell.php, line 29
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 21:50:42 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(65): Google\Cloud\Speech\SpeechClient->recognize(false, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 22:08:33 Warning: Warning (2): fopen(/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/WeeAutomate/webroot/phone/calls/REeca599fd6fe851be4a499fd980a75c19.wav): failed to open stream: No such file or directory in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 66]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 66
+App\Shell\PhoneShell::Transcribe() - APP/Shell/PhoneShell.php, line 29
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 22:08:34 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(66): Google\Cloud\Speech\SpeechClient->recognize(false, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 22:10:05 Warning: Warning (2): fopen(/WeeAutomate/webroot/phone/calls/REeca599fd6fe851be4a499fd980a75c19.wav): failed to open stream: No such file or directory in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 66]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 66
+App\Shell\PhoneShell::Transcribe() - APP/Shell/PhoneShell.php, line 29
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 22:10:06 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(66): Google\Cloud\Speech\SpeechClient->recognize(false, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 22:13:28 Warning: Warning (2): fopen(//WeeAutomate/webroot/phone/calls/REeca599fd6fe851be4a499fd980a75c19.wav): failed to open stream: No such file or directory in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 68]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 68
+App\Shell\PhoneShell::Transcribe() - APP/Shell/PhoneShell.php, line 29
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 22:13:33 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(68): Google\Cloud\Speech\SpeechClient->recognize(false, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 22:13:50 Warning: Warning (2): fopen(/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php/WeeAutomate/webroot/phone/calls/REeca599fd6fe851be4a499fd980a75c19.wav): failed to open stream: No such file or directory in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 68]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 68
+App\Shell\PhoneShell::Transcribe() - APP/Shell/PhoneShell.php, line 29
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 22:13:51 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(68): Google\Cloud\Speech\SpeechClient->recognize(false, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 22:15:46 Warning: Warning (2): fopen(/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/WeeAutomate/webroot/phone/calls/REeca599fd6fe851be4a499fd980a75c19.wav): failed to open stream: No such file or directory in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 68]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 68
+App\Shell\PhoneShell::Transcribe() - APP/Shell/PhoneShell.php, line 29
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 22:15:47 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(68): Google\Cloud\Speech\SpeechClient->recognize(false, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 22:27:39 Warning: Warning (2): fopen(/Applications/AMPPS/www/webroot/phone/calls/REeca599fd6fe851be4a499fd980a75c19.wav): failed to open stream: No such file or directory in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 68]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fopen - [internal], line ??
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 68
+App\Shell\PhoneShell::Transcribe() - APP/Shell/PhoneShell.php, line 29
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 22:27:39 Error: [Google\Cloud\Core\Exception\BadRequestException] {
+  "error": {
+    "code": 400,
+    "message": "RecognitionAudio not set.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php on line 245
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RequestWrapper.php(150): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-core/RestTrait.php(96): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/Connection/Rest.php(60): Google\Cloud\Speech\Connection\Rest->send('speech', 'recognize', Array)
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/google/cloud-speech/SpeechClient.php(208): Google\Cloud\Speech\Connection\Rest->recognize(Array)
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(68): Google\Cloud\Speech\SpeechClient->recognize(false, Array)
+#5 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(29): App\Shell\Task\GetColorsTask->TranscribeAudio()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->Transcribe()
+#7 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#8 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2017-09-12 22:38:48 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 've reached the drug testing line for the United States probation office in Las V' at line 1 in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(328): Cake\Database\Statement\MysqlStatement->execute()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(284): Cake\Database\Connection->query('CALL SaveCall(n...')
+#3 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(129): Cake\Database\Connection->execute('CALL SaveCall(n...')
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#5 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#7 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#8 {main}
+
+
+2017-09-12 22:40:56 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 've reached the drug testing line for the United States probation office in Las V' at line 1 in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(328): Cake\Database\Statement\MysqlStatement->execute()
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(284): Cake\Database\Connection->query('CALL SaveCall(n...')
+#3 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(130): Cake\Database\Connection->execute('CALL SaveCall(n...')
+#4 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#5 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#6 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#7 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#8 {main}
+
+
+2017-09-12 22:55:22 Warning: Warning (2): mysqli_real_escape_string() expects exactly 2 parameters, 1 given in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 72]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+mysqli_real_escape_string - [internal], line ??
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 72
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 127
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 23:25:39 Error: [RuntimeException] Unknown command `cake GetTodaysColors`. Run `cake --help` to get the list of valid commands. in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 173
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(136): Cake\Console\CommandRunner->getShell(Object(Cake\Console\ConsoleIo), Object(Cake\Console\CommandCollection), 'GetTodaysColors')
+#1 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2017-09-12 23:48:21 Error: [PDOException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php on line 48
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'lopezd', 'lopezd', Array)
+#1 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(134): Cake\Database\Driver\Mysql->connect()
+#3 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(259): Cake\Database\Driver\Mysql->prepare('CALL getProgram...')
+#4 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(327): Cake\Database\Connection->prepare('CALL getProgram...')
+#5 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Connection.php(284): Cake\Database\Connection->query('CALL getProgram...')
+#6 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(181): Cake\Database\Connection->execute('CALL getProgram...')
+#7 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(19): App\Shell\Task\GetColorsTask->CallPrograms()
+#8 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->GetTodaysColors()
+#9 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#10 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2017-09-13 04:21:41 Error: [PDOException] SQLSTATE[HY000]: General error in /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php on line 126
+Stack Trace:
+#0 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php(126): PDOStatement->fetchAll(2)
+#1 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(174): Cake\Database\Statement\PDOStatement->fetchAll('assoc')
+#2 /Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php(134): App\Shell\Task\GetColorsTask->FindColors('AB0C8C4B-93F5-3...', 'Mr. Court, Dist...')
+#3 /Applications/AMPPS/www/WeeAutomate/src/Shell/PhoneShell.php(24): App\Shell\Task\GetColorsTask->DownloadPhoneRecordings()
+#4 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/Shell.php(488): App\Shell\PhoneShell->DownloadRecordings()
+#5 /Applications/AMPPS/www/WeeAutomate/vendor/cakephp/cakephp/src/Console/CommandRunner.php(140): Cake\Console\Shell->runCommand(Array, true)
+#6 /Applications/AMPPS/www/WeeAutomate/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#7 {main}
+
+

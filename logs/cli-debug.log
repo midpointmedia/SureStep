@@ -1,0 +1,1873 @@
+2017-09-07 04:49:03 Notice: Notice (8): Use of undefined constant this - assumed 'this' in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::main() - APP/Shell/Task/GetColorsTask.php, line 14
+App\Shell\PhoneShell::main() - APP/Shell/PhoneShell.php, line 15
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 508
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-07 04:52:15 Notice: Notice (8): Undefined variable: cust_result in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::getProgramsToCall() - APP/Shell/Task/GetColorsTask.php, line 83
+App\Shell\Task\GetColorsTask::main() - APP/Shell/Task/GetColorsTask.php, line 14
+App\Shell\PhoneShell::main() - APP/Shell/PhoneShell.php, line 15
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 508
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-11 18:45:22 Notice: Notice (8): Undefined variable: ToNumber in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 64]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::CallPrograms() - APP/Shell/Task/GetColorsTask.php, line 64
+App\Shell\Task\GetColorsTask::main() - APP/Shell/Task/GetColorsTask.php, line 15
+App\Shell\PhoneShell::main() - APP/Shell/PhoneShell.php, line 15
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 508
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 03:34:27 Notice: Notice (8): Undefined variable: result_count in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 34
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 03:42:14 Notice: Notice (8): Array to string conversion in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 33
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 03:49:25 Notice: Notice (8): Undefined variable: call_result in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 36
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 03:51:36 Notice: Notice (8): Undefined variable: call_result in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 36
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 03:52:27 Notice: Notice (8): Undefined variable: call_result in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 36
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:13 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 38
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:45:53 Notice: Notice (8): Undefined index: call_sid in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 40
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 04:51:31 Notice: Notice (8): Undefined variable: result_count in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 35
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:05:56 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:07:22 Notice: Notice (8): Undefined variable: time in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 30
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 06:34:36 Notice: Notice (8): Array to string conversion in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 59
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 15:15:17 Notice: Notice (8): Undefined variable: ToNumber in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 88]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::CallAgency() - APP/Shell/Task/GetColorsTask.php, line 88
+App\Shell\PhoneShell::GetTodaysColors() - APP/Shell/PhoneShell.php, line 19
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 15:16:01 Notice: Notice (8): Undefined variable: callSID in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 118]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::CallPrograms() - APP/Shell/Task/GetColorsTask.php, line 118
+App\Shell\PhoneShell::GetTodaysColors() - APP/Shell/PhoneShell.php, line 19
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 21:03:01 Notice: Notice (8): Undefined variable: client in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 47]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 47
+App\Shell\PhoneShell::Transcribe() - APP/Shell/PhoneShell.php, line 29
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-12 22:36:40 Notice: Notice (8): Undefined variable: alternative in [/Applications/AMPPS/www/WeeAutomate/src/Shell/Task/GetColorsTask.php, line 77]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+App\Shell\Task\GetColorsTask::TranscribeAudio() - APP/Shell/Task/GetColorsTask.php, line 77
+App\Shell\Task\GetColorsTask::DownloadPhoneRecordings() - APP/Shell/Task/GetColorsTask.php, line 126
+App\Shell\PhoneShell::DownloadRecordings() - APP/Shell/PhoneShell.php, line 24
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 488
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
